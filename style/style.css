@@ -1,0 +1,19 @@
+body{
+    background-color: #2e1e0ff1;
+    font-family: monospace, serif;
+    color: #A2A79E;
+}
+.titulo{
+    color: #A2A79E;
+    background-color: #88292F;
+}
+.listas{
+    line-height: 30px;
+    font-size: 20px;
+}
+.links{
+    background-color: #A2A79E;
+}
+#meuNome{
+    font-family: serif;
+}
