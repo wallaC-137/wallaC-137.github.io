@@ -9,7 +9,11 @@ body{
 }
 .listas{
     line-height: 30px;
+    font-size: 20px;
 }
 .links{
     background-color: #A2A79E;
+}
+#meuNome{
+    font-family: serif;
 }
