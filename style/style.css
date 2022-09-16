@@ -17,6 +17,8 @@ body{
     background-color: #A2A79E;
 }
 img{
+    display: block;
+    margin: 0px auto;
     border-style: solid;
     border-radius: 50%;
 }
