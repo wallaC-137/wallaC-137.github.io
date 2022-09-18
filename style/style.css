@@ -22,11 +22,12 @@ body {
 
 .titulo {
     color: #dbdbdb;
-    background-color: rgb(43, 42, 42);
+    /* background-color: rgb(43, 42, 42); */
+    background-image: url('../img/black-wallpaper-hd-1.jpg');
     text-align: center;
     margin: 25px auto;
     width: 50%;
-    border: 5px inset #daa520 ;
+    border: 5px inset #dbdbdb ;
     
 }
 
@@ -86,7 +87,7 @@ h1, h3 {
     margin: auto;
     padding: 20px;
     background-color: rgb(43, 42, 42);
-    line-height: 25px;
+    line-height: 35px;
 }
 
 .end{
