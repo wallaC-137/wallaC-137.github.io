@@ -4,31 +4,59 @@
 }
 
 body {
-    background-color: #071013;
+    background-image: url('../img/wallpaperbetter.com_1920x1080.jpg');
     font-family: monospace, serif;
-    color: #A2A79E;
+    color: #dbdbdb;
+}
+
+#header {
+    font-weight:bolder;
+    font-size: 50px;
+    color: #dbdbdb;
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border: 5px inset #daa520 ;
 }
 
 .titulo {
-    color: #2c2e30;
-    background-color: #75ABBC;
+    color: #dbdbdb;
+    background-color: rgb(43, 42, 42);
     text-align: center;
+    margin: 25px auto;
+    width: 50%;
+    border: 5px inset #daa520 ;
     
 }
 
 .listas {
-    line-height: 30px;
+    line-height: 50px;
     font-size: 20px;
     border-style: solid;
     border-radius: 8px;
+    width: 20%;
+    padding: 0% 5%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(43, 42, 42);
 }
 
 .links {
-    background-color: #A2A79E;
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
+.links:hover{
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    color:rgb(43, 42, 42);
+    text-decoration: underline;
+    padding: 0 15px;
 }
 
 #div-minhaFoto{
-    background-image: url('../img/black-wallpaper-hd-1.jpg');
+    background-image: url('../img/vecteezy_black-background_gb1020.jpg');
     background-size: cover; 
     background-position: 0% 25%;
 }
@@ -38,13 +66,11 @@ body {
 }
 
 img {
-    display: inline-block;
-    border: 25px ridge #071013;
+    border: 10px ridge #daa520 ;
     border-radius: 50%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     width: 350px;
-
 }
 
 h1, h3 {
@@ -52,3 +78,17 @@ h1, h3 {
     padding: 15px 50px;
 }
 
+.my-txt{
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(43, 42, 42);
+    line-height: 25px;
+}
+
+.end{
+    margin-bottom: 25px;
+}
